@@ -9,6 +9,18 @@ body {
     background: rgba(0, 200, 0, 0.1);
     padding: 20px;
     margin: 20px 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.highlights-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#highlights article{
+    width: 500px;
 }
 
 h1 { 
